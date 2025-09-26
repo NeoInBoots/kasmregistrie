@@ -6,9 +6,9 @@ const nextConfig = {
   env: {
     name: 'Kasm Technologies',
     description: 'The official store for Kasm supported workspaces.',
-    icon: 'https://github.com/NeoInBoots/kasmregistrie/img/logo.svg',
-    listUrl: 'https://github.com/NeoInBoots/kasmregistrie',
-    contactUrl: 'https://github.com/NeoInBoots/kasmregistrie/support',
+    icon: 'https://neoinboots.github.io/kasmregistrie/img/logo.svg',
+    listUrl: 'https://neoinboots.github.io/kasmregistrie',
+    contactUrl: 'https://neoinboots.github.io/kasmregistrie/kasmregistrie/support',
   },
   reactStrictMode: true,
   basePath: '/kasm-registry/1.0',
