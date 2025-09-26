@@ -1,0 +1,36 @@
+{
+  "friendly_name": "BloodHound",
+  "image_src": "bloodhound.svg",
+  "description": "BloodHound uses graph theory to reveal the hidden and often unintended relationships within an Active Directory or Azure environment.",
+  "cores": 2,
+  "memory": 2048,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Shares",
+  "docker_registry": "https://public.ecr.aws/bramblethorn",
+  "categories": [
+    "Desktop",
+    "Security"
+  ],
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container",
+  "allow_network_selection": true,
+  "name": "public.ecr.aws/bramblethorn/kasm/bloodhound:1.16.1-rolling-weekly",
+  "notes": "The container provides an ephemeral environment. Credentials are admin:admin.",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.16.x",
+      "image": "public.ecr.aws/bramblethorn/kasm/bloodhound:1.16.1-rolling-weekly",
+      "uncompressed_size_mb": 6000,
+      "available_tags": [
+        "1.16.1-rolling-weekly",
+        "v7.6.1",
+        "v8.2.0"
+      ]
+    }
+  ]
+}
